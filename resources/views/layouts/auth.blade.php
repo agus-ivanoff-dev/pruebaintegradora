@@ -20,6 +20,9 @@
 
     <!-- CSS-->
     <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/main.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/auth.css') }}">
+    {{-- <link rel="stylesheet" type="text/css" href="{{ asset('css/main.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/auth.css') }}"> --}}
 
     <!-- FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,7 +48,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <h4> 
+                    <h4>
                         <span class="badge bg-success">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
@@ -57,7 +60,7 @@
                                 </ul>
                             </li>
                         </span>
-                    
+
                     </h4>
 
                 </ul>

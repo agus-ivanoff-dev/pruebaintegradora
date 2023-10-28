@@ -15,7 +15,7 @@
 <body>
 
     <h1>Correo Electrónico</h1>
-    <p>Este es el primer correo que envío por Laravel</p>
+    <p>Mensaje enviado automáticamente por Luigi Bosca- No responder a esta casilla.</p>
 
     <p><strong>Nombre: </strong>{{$data['nombre']}}</p>
     <p><strong>Apellido: </strong>{{$data['apellido']}}</p>
